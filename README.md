@@ -11,7 +11,7 @@ This needs to be automated so that the infrastructure can be discarded as soon a
 
 ### Server specs
 
-You'll need to create a **Launch Configuration** for your application servers in order to deploy `four` servers, two located in each of your private subnets.         
+You'll need to create a **Launch Configuration** for your application servers in order to deploy `four` servers, `two` located in each of your private subnets.         
 The launch configuration will be used by an **auto-scaling group**.         
 You'll need `two vCPUs` and at least `4GB of RAM`.              
 The Operating System to be used is `Ubuntu 18`.             
