@@ -31,4 +31,5 @@ Gather your files and submit them via a zipped folder or a GitHub link.
 
 **Load Balancer DNS name:** dev-WebAppL-124X4D9UT6LXN-641835118.us-east-1.elb.amazonaws.com     
 **Image of Running Server:**        
+
 <img src = "./Image of Running server.png">
