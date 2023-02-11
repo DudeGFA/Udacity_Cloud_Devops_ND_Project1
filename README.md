@@ -1,22 +1,22 @@
 # Udacity Cloud Devops Nanodegree Project 1
 ### Deploy a high-availability web app using CloudFormation
 
-In this project, you’ll deploy web servers for a highly available web app using CloudFormation. You will write the code that creates and deploys the infrastructure and application for an Instagram-like app from the ground up. You will begin with deploying the networking components, followed by servers, security roles and software. The procedure you follow here will become part of your portfolio of cloud projects. You’ll do it exactly as it’s done on the job - following best practices and scripting as much as possible.
+In this project, you’ll deploy web servers for a highly available web app using **CloudFormation**. You will write the code that creates and deploys the infrastructure and application for an Instagram-like app from the ground up. You will begin with deploying the **networking components**, followed by **servers**, **security roles** and **software**. The procedure you follow here will become part of your portfolio of cloud projects. You’ll do it exactly as it’s done on the job - following best practices and scripting as much as possible.
 
 ### Scenario
-Your company is creating an Instagram clone called Udagram.         
-Developers want to deploy a new application to the AWS infrastructure.          
+Your company is creating an Instagram clone called **Udagram**.         
+Developers want to deploy a new application to the **AWS** infrastructure.          
 You have been tasked with provisioning the required infrastructure and deploying a dummy application, along with the necessary supporting software.         
 This needs to be automated so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
 
 ### Server specs
 
-You'll need to create a **Launch Configuration** for your application servers in order to deploy four servers, two located in each of your private subnets.         
-The launch configuration will be used by an auto-scaling group.         
-You'll need two vCPUs and at least 4GB of RAM.              
-The Operating System to be used is Ubuntu 18.             
+You'll need to create a **Launch Configuration** for your application servers in order to deploy `four` servers, two located in each of your private subnets.         
+The launch configuration will be used by an **auto-scaling group**.         
+You'll need `two vCPUs` and at least `4GB of RAM`.              
+The Operating System to be used is `Ubuntu 18`.             
 So, choose an Instance size and Machine Image (AMI) that best fits this spec.           
-Be sure to allocate at least 10GB of disk space so that you don't run into issues.          
+Be sure to allocate at least `10GB of disk space` so that you don't run into issues.          
 
 ### Security Groups and Roles
 
