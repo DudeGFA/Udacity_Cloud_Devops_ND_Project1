@@ -28,3 +28,7 @@ The application needs to be deployed into private subnets with a **Load Balancer
 One of the output exports of the **CloudFormation** script should be the public URL of the **LoadBalancer. Bonus points** if you add `http://` in front of the load balancer **DNS Name** in the output, for convenience.         
 
 Gather your files and submit them via a zipped folder or a GitHub link.
+
+**Load Balancer DNS name:** dev-WebAppL-124X4D9UT6LXN-641835118.us-east-1.elb.amazonaws.com     
+**Image of Running Server:**        
+<img src = "./Image of Running server.png>
